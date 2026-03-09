@@ -22,10 +22,11 @@ public class LoginStepDefinitions {
 
     @When("ingresa las credenciales de login")
     public void ingresarCredenciales() {
-
+        System.out.println("Ingresar credenciales");
     }
+
     @Then("debera ver el nombre al ingresar")
     public void validarIngreso() {
-
+        System.out.println("Ingresar credenciales");
     }
 }
